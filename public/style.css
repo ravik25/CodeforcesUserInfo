@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+body{
+ background-color: #4CAF50;
+}
+.container{
+  border-radius: 15px;
+  padding: 5px;
+  width: 30%;
+  height: 30vh;
+  position: absolute; /*Can also be `fixed`*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: white;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.88);
+}
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#contact input[type="text"],
+input[type="submit"]{
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding: 12px;
+  border: none;
+  border-bottom: solid 1px black;
+}
+#contact input[type="submit"]{
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 15px;
+}
